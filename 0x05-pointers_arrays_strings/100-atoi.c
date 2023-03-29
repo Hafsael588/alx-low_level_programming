@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _atoi -  convert a string 
- * @s: the pointure to convert
- * Return: An intger
+ * _atoi - Converty a string to integre.
+ * @s: The pointure to converty
+ * Return: A integre
  */
 
 int _atoi(char *s)
@@ -31,7 +31,7 @@ int _atoi(char *s)
 		}
 		c++;
 	}
+
 	ni *= min;
 	return (ni);
 }
-
